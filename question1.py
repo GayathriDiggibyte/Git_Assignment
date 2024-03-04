@@ -15,3 +15,4 @@ def main():
     print("The sum of the elements in the list", res)
 main()
 #changes made for question 2
+#changes made for question 3
