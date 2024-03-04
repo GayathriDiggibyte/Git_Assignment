@@ -1,15 +1,11 @@
-def palin(n):
-  rev=0
-  t=n
-  while(t>0):
-    rem=t%10
-    rev=(rev*10)+rem
-    t=t//10
-  if(rev==n):
-    print(n, " is a palindrome number")
-  else:
-    print(n, " is not a palindrome number")
-n=int(input("Enter a number: "))
-palin(n)
-print("Program Ended")
-# changes made in main branch
+def rev(s):
+  rev1=""
+  for i in range(len(s)-1,-1,-1):
+    rev1=rev1+s[i]
+  return rev1
+
+def main():
+  s=input("Enter a string : \n")
+  res=rev(s)
+  print("The reversed string ",s," is : ",res)
+main()
