@@ -14,4 +14,4 @@ def main():
     res=sumofelements(l)
     print("The sum of the elements in the list", res)
 main()
-
+#changes made for question 2
