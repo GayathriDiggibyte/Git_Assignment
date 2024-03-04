@@ -12,6 +12,6 @@ def main():
     for i in range(len(ele)):
         l.append(int(ele[i]))
     res=sumofelements(l)
-
+    print("The sum of the elements in the list", res)
 main()
 
