@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-commit1
-=======
-commit1
-commit2
-commit3
->>>>>>> aed6033 (c2)
